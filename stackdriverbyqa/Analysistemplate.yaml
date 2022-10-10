@@ -12,8 +12,8 @@ spec:
           user: admin
           application: stackdrivertest1
           baselineStartTime: "2022-09-16T06:10:00Z"
-          canaryStartTime: "2022-09-20T08:06:00Z"
-          lifetimeMinutes: 6
+          canaryStartTime: "2022-09-19T08:06:00Z"
+          lifetimeMinutes: 10
           threshold: 
             pass: 80
             marginal: 60
