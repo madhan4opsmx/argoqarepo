@@ -10,13 +10,13 @@ spec:
           profile: "opsmx-profile"
           gateUrl: https://argoqa-helm.isd-dev.opsmx.net/
           user: admin
-          application: stackdrivertest1
+          application: stackdriveroct11
           baselineStartTime: "2022-09-16T06:10:00Z"
           canaryStartTime: "2022-09-19T08:06:00Z"
-          lifetimeMinutes: 10
+          lifetimeMinutes: 04
           threshold: 
-            pass: 80
-            marginal: 60
+            pass: 0
+            marginal: 0
           services:
           - logTemplateName: stacktemp1
             logScopeVariables: "resource.labels.container_name"
