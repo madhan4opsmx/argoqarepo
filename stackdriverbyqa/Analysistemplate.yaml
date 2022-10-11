@@ -15,8 +15,8 @@ spec:
           canaryStartTime: "2022-09-19T08:06:00Z"
           lifetimeMinutes: 04
           threshold: 
-            pass: 0
-            marginal: 0
+            pass: 80
+            marginal: 60
           services:
           - logTemplateName: stacktemp1
             logScopeVariables: "resource.labels.container_name"
