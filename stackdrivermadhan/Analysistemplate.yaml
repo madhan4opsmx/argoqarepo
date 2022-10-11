@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AnalysisTemplate
 metadata:
-  name: testapp
+  name: testapp1
 spec:
   metrics:
-    - name: testapp
+    - name: testapp1
       provider:
         opsmx:
           profile: "opsmx-profile"
           gateUrl: https://argoqa-helm.isd-dev.opsmx.net/
           user: admin
-          application: stackdriveroct11
+          application: stackdrivertest4
           baselineStartTime: "2022-09-16T06:10:00Z"
           canaryStartTime: "2022-09-19T08:06:00Z"
           lifetimeMinutes: 04
@@ -18,7 +18,7 @@ spec:
             pass: 80
             marginal: 60
           services:
-          - logTemplateName: stacktemp1
+          - logTemplateName: stacktemptest1
             logScopeVariables: "resource.labels.container_name"
             baselineLogScope: "issuegen-prod"
             canaryLogScope: "issuegen-prod"
