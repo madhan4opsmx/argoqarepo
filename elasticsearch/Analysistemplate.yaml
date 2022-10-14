@@ -13,8 +13,8 @@ spec:
       provider:
         opsmx:
           gateUrl: https://argoqa-helm.isd-dev.opsmx.net/
-          application: logandmetrictest1
-          user: admin
+          application: loganalysistest1
+          user: user2
           lifetimeMinutes: 04
           threshold:
             pass: 80
