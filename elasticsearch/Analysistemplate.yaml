@@ -15,7 +15,7 @@ spec:
           gateUrl: https://argoqa-helm.isd-dev.opsmx.net/
           application: logandmetrictest1
           user: admin
-          lifetimeHours: 04
+          lifetimeMinutes: 04
           threshold:
             pass: 80
             marginal: 60
