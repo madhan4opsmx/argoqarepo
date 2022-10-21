@@ -8,9 +8,9 @@ spec:
       provider:
         opsmx:
           profile: "opsmx-profile"
-          gateUrl: https://argoqa-helm.isd-dev.opsmx.net/
+          gateUrl: https://oes-argoqa.isd-dev.opsmx.net/
           user: user2
-          application: stackanalysistest1
+          application: testapp1
           baselineStartTime: "2022-09-16T06:10:00Z"
           canaryStartTime: "2022-09-19T08:06:00Z"
           lifetimeMinutes: 03
